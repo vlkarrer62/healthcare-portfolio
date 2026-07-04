@@ -230,7 +230,7 @@
         <div class="case-tabs" id="case-tabs">
           <div class="case-tabs__bar" role="tablist" aria-label="Case studies">
             <button type="button" class="case-tab" role="tab" id="tab-onboarding" aria-selected="true" aria-controls="case-onboarding" data-tab="onboarding">Provider onboarding · flagship</button>
-            <button type="button" class="case-tab" role="tab" id="tab-attune" aria-selected="false" aria-controls="case-attune" data-tab="attune" tabindex="-1">Attune · concept</button>
+            <button type="button" class="case-tab" role="tab" id="tab-attune" aria-selected="false" aria-controls="case-attune" data-tab="attune" tabindex="-1">Attune · CBT program</button>
             <button type="button" class="case-tab" role="tab" id="tab-workflow" aria-selected="false" aria-controls="case-workflow" data-tab="workflow" tabindex="-1">ENT workflow · case</button>
             <button type="button" class="case-tab" role="tab" id="tab-plants" aria-selected="false" aria-controls="case-plants" data-tab="plants" tabindex="-1">Plant guide · code</button>
           </div>
@@ -722,128 +722,199 @@
             </div>
 
 
-        <!-- Case Study 1: Attune -->
+        <!-- Case Study: Attune -->
             <div class="case-tab-panel" role="tabpanel" id="case-attune" aria-labelledby="tab-attune" hidden>
         <article class="case-study" aria-labelledby="attune-heading">
           <div class="dark-panel dark-panel-case">
             <div class="case-header">
-              <p class="case-meta case-meta-dark">Case Study 01 · Concept Prototype · Behavioral Health</p>
-              <h3 id="attune-heading">Attune — Measurement-supported care for sound-related distress</h3>
-              <p class="case-summary case-summary-dark">A behavioral health product concept informed by behavioral otology clinical context. The core question: could measurement itself function as support — helping patients see progress, recognize setbacks, and know when to seek more help?</p>
+              <p class="case-meta case-meta-dark">Concept Program · Behavioral Otology · Sole Designer &amp; Builder</p>
+              <h3 id="attune-heading">Attune — CBT self-management for tinnitus, hyperacusis, and misophonia</h3>
+              <p class="case-framing case-summary-dark">Attune is a CBT-based self-management program for tinnitus, hyperacusis, and misophonia — designed to close a real care gap while responsibly routing people to the right level of human support.</p>
+              <p class="case-context case-summary-dark">My role: sole designer and builder — problem definition, program architecture, interaction design, measurement design, and coded prototype. This is concept work informed by neurotology clinic experience, not a reported clinical trial or shipped commercial product.</p>
             </div>
 
-            <div class="case-diagram case-diagram-loop case-diagram-dark" role="img" aria-label="Measurement-supported care loop: Validated intake, periodic measures, trend reflection, escalation logic, returning to structured support">
-              <p class="diagram-caption diagram-caption-dark">Measurement-supported care loop</p>
-              <div class="care-loop">
-                <div class="loop-node loop-node-dark loop-node-1">
-                  <span class="loop-label">Validated intake</span>
-                  <span class="loop-detail">Baseline severity + domains</span>
-                </div>
-                <div class="loop-node loop-node-dark loop-node-2">
-                  <span class="loop-label">Periodic measures</span>
-                  <span class="loop-detail">Every 2–3 weeks</span>
-                </div>
-                <div class="loop-node loop-node-dark loop-node-3">
-                  <span class="loop-label">Trend + reflection</span>
-                  <span class="loop-detail">Patient-facing progress view</span>
-                </div>
-                <div class="loop-node loop-node-dark loop-node-4">
-                  <span class="loop-label">Escalation logic</span>
-                  <span class="loop-detail">Clinician alert if needed</span>
-                </div>
-                <div class="loop-center">Structured support</div>
+            <div class="case-diagram case-diagram-dark" role="img" aria-label="Escalation ladder: self-guided program, group cohort, one-on-one support">
+              <p class="diagram-caption diagram-caption-dark">Tiered support model — not fully self-serve, not clinic-only</p>
+              <div class="diagram-pipeline attune-preview-flow">
+                <div class="pipeline-node pipeline-node-dark"><span class="node-tag">Step 1</span>Self-guided · 8-week iCBT</div>
+                <div class="pipeline-arrow pipeline-arrow-dark" aria-hidden="true"></div>
+                <div class="pipeline-node pipeline-node-dark"><span class="node-tag">Step 2</span>Group cohort</div>
+                <div class="pipeline-arrow pipeline-arrow-dark" aria-hidden="true"></div>
+                <div class="pipeline-node pipeline-node-dark"><span class="node-tag">Step 3</span>One-on-one support</div>
+                <div class="pipeline-arrow pipeline-arrow-dark" aria-hidden="true"></div>
+                <div class="pipeline-node pipeline-node-accent"><span class="node-tag">Always</span>Safety routing out</div>
               </div>
             </div>
           </div>
 
           <div class="case-grid">
-            <div class="case-block">
-              <h4>Problem</h4>
-              <p>Patients with sound-related distress often cycle through appointments without a clear sense of whether they're improving. Clinicians lack structured visibility into symptom trajectories between visits. Existing tools either over-promise (AI-as-therapy) or under-support (static handouts with no feedback loop).</p>
-            </div>
-            <div class="case-block">
-              <h4>Users</h4>
-              <ul>
-                <li>Adults experiencing tinnitus, hyperacusis, misophonia, or sound-related anxiety</li>
-                <li>Behavioral otology and audiology clinicians managing stepped-care pathways</li>
-                <li>Care coordinators monitoring escalation triggers</li>
-              </ul>
-            </div>
-            <div class="case-block">
-              <h4>Constraints</h4>
-              <ul>
-                <li>Must use validated assessments, not ad-hoc symptom scales</li>
-                <li>Cannot position AI as therapy or replace clinical judgment</li>
-                <li>Must support stepped care without creating dependency on the tool</li>
-                <li>Clinical trust boundaries must be explicit and maintained</li>
-                <li>Patients vary widely in digital literacy and distress severity</li>
-              </ul>
-            </div>
-            <div class="case-block">
-              <h4>Old experience</h4>
-              <p>Patients received psychoeducation materials and were told to "track how they're doing" without structure. Progress was subjective and invisible. Setbacks felt like failure rather than signal. Clinicians only learned about deterioration at the next appointment — if the patient returned.</p>
-            </div>
             <div class="case-block case-block-wide">
-              <h4>Design goals</h4>
-              <ul class="goal-list">
-                <li>Make progress visible through validated, repeatable measurement</li>
-                <li>Help patients reflect on patterns without requiring clinical interpretation</li>
-                <li>Trigger clinician escalation when scores worsen or safety flags appear</li>
-                <li>Provide structured CBT-informed support without pretending AI is therapy</li>
-                <li>Keep trust boundaries clear: the tool supports; clinicians treat</li>
+              <h4>The problem</h4>
+              <p>Evidence shows CBT is the most effective treatment for bothersome tinnitus and disabling hyperacusis — yet in the Cleveland/Ohio area, there was nowhere to refer patients into structured CBT for sound-related distress. In neurotology clinic, otologists, NPs, and PAs evaluated these patients and often had to say, in effect, <em>there's nothing we can do</em>.</p>
+              <p class="case-scene"><strong>Clinic scene (anonymized):</strong> A patient leaves an appointment with validated severity on paper — tinnitus affecting sleep, concentration, and mood — and asks what comes next. The clinician knows CBT works. There is no local program to offer, no group to join, no digital pathway with accountability. The visit ends with a handout and a disheartened provider. That gap — not lack of evidence, but lack of access — is what Attune exists to solve.</p>
+              <p><strong>Design reframe:</strong> This is a care-gap and access problem. The user is two people: the suffering patient <em>and</em> the provider with nowhere to send them.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>Who it's for</h4>
+              <ul>
+                <li><strong>Primary — patients</strong> with tinnitus, hyperacusis, or misophonia, often with co-occurring insomnia, anxiety, or low mood. They need structure, hope, and proof that change is possible — not another passive handout.</li>
+                <li><strong>Secondary — referring clinicians</strong> who need a credible destination after diagnosis — something evidence-based they can recommend without overpromising a cure.</li>
+                <li><strong>Tertiary — partners/spouses</strong> whose well-meaning accommodation can accidentally reinforce avoidance and hypervigilance around sound.</li>
               </ul>
             </div>
-            <div class="case-block case-block-wide">
-              <h4>Solution</h4>
-              <p>Attune is a measurement-supported behavioral otology program that combines validated assessment intake, periodic progress tracking, patient-facing reflection prompts, and clinician escalation logic — all within a stepped-care framework that orients patients and signals when more support is needed.</p>
-            </div>
+
             <div class="case-block">
-              <h4>Key flows</h4>
+              <h4>Emotional context</h4>
+              <p>Distress, hopelessness, and hypervigilance shaped the tone of the program: calm and structured, not clinical-cold or wellness-cheery. Progress had to feel legible without shaming setbacks.</p>
+            </div>
+
+            <div class="case-block case-block-wide">
+              <h4>The central design tension</h4>
+              <p>The formats invert. Group therapy retains and engages best but scales worst. One-on-one support is next. Apps and online programs scale best — but have the weakest engagement and highest drop-off.</p>
+              <p>Every Attune decision negotiates one question: <strong>how do you get near-group engagement at digital scale?</strong> The rest of this case study is my answer — a tiered model, not a binary between “app” and “clinic.”</p>
+            </div>
+
+            <div class="case-block case-block-wide">
+              <h4>Process &amp; the pivot</h4>
               <ol class="flow-list">
-                <li><strong>Intake:</strong> Validated assessment battery establishes baseline severity and domains</li>
-                <li><strong>Onboarding:</strong> Patient learns program structure, measurement cadence, and escalation pathways</li>
-                <li><strong>Active support:</strong> CBT-informed modules with structured exercises between check-ins</li>
-                <li><strong>Progress check:</strong> Re-assessment every 2–3 weeks with trend visualization</li>
-                <li><strong>Reflection:</strong> Patient-facing prompts to notice patterns, triggers, and coping shifts</li>
-                <li><strong>Escalation:</strong> Automated clinician alert when scores worsen or safety flags trigger</li>
+                <li><strong>Started with a clinic.</strong> Initial intent: run CBT for sound-related distress locally. Observation: demand exceeded what one clinic could serve.</li>
+                <li><strong>Pivoted to a digital program.</strong> A structured 8-week platform could reach more people — but early framing skewed too self-serve.</li>
+                <li><strong>Corrected again.</strong> Some patients genuinely need human contact. “Fully self-serve” was the wrong absolute. Attune became a deliberate escalation ladder: self-guided → group cohort → one-on-one — with safety routing that exits the product when risk requires it.</li>
               </ol>
+              <p>These shifts are not indecision. Each came from recognizing that the right model is tiered support, not picking one format and forcing everyone into it.</p>
             </div>
-            <div class="case-block">
-              <h4>Measurement system</h4>
-              <ul>
-                <li>Validated instruments at intake and at regular intervals (every 2–3 weeks)</li>
-                <li>Domain-specific scores tracked over time with simple trend views</li>
-                <li>Patient-facing language that explains what scores mean without clinical jargon</li>
-                <li>Reflection prompts tied to score changes: "Your sound sensitivity score improved — what felt different this week?"</li>
+
+            <div class="case-block case-block-wide">
+              <h4>Key design decisions</h4>
+              <ul class="decision-list">
+                <li><strong>Evidence-based vs. engaging.</strong> Tradeoff: Andersson/Beukes-style iCBT is clinically faithful but can feel dense. Resolution: Beckian session structure, patient-authored weekly goals, and a completion tracker that makes progress visible — without diluting the CBT model into generic wellness content.</li>
+                <li><strong>Program scope grew with observed need.</strong> Tradeoff: a narrow tinnitus-only program vs. serving related conditions. Resolution: expanded to hyperacusis and misophonia pathways, plus a <strong>partner/spouse module</strong> after seeing well-meaning partners reinforce the anxiety loop by over-protecting and accommodating avoidance.</li>
+                <li><strong>Structure of the 8 weeks.</strong> Tradeoff: open exploration vs. accountable cadence. Resolution: weekly modules with patient-set goals, biweekly validated measures, and explicit review points — enough flexibility for individual goals, enough structure to fight drop-off.</li>
+                <li><strong>When to add humans.</strong> Tradeoff: digital scale vs. isolation in distress. Resolution: group cohort for engagement; one-on-one for people who are really struggling — triggered by plateau, severity, or preference, not only by crisis.</li>
               </ul>
             </div>
-            <div class="case-block case-block-wide">
-              <h4>Stepped-care logic</h4>
-              <div class="stepped-care">
-                <div class="step">
-                  <span class="step-label">Step 1</span>
-                  <p>Self-guided modules + measurement</p>
-                </div>
-                <div class="step-arrow" aria-hidden="true">→</div>
-                <div class="step">
-                  <span class="step-label">Step 2</span>
-                  <p>Guided support + clinician check-in</p>
-                </div>
-                <div class="step-arrow" aria-hidden="true">→</div>
-                <div class="step">
-                  <span class="step-label">Step 3</span>
-                  <p>Direct clinical intervention</p>
-                </div>
+          </div>
+
+          <div class="dark-panel dark-panel-inset case-study-kit">
+            <h4 class="section-label-dark">Measurement as support</h4>
+            <p class="kit-intro case-thesis">The measuring is the intervention — validated instruments track symptom burden; weekly goal completion tracks what CBT actually changes.</p>
+            <p class="kit-intro">Standard tools (TFI, HQ, misophonia screen, ISI, PHQ-9, GAD-7, C-SSRS) capture severity — but not always the behaviors CBT targets: fear, avoidance, safety behaviors, confidence, return to normal life. Attune pairs validated measures with a <strong>CBT-sensitive weekly goal-completion tracker</strong> so measurement doubles as motivation.</p>
+
+            <div class="case-grid case-grid-inset">
+              <div class="case-block">
+                <h4>Validated measures</h4>
+                <ul>
+                  <li>TFI, HQ, misophonia screen at intake and every 2 weeks</li>
+                  <li>ISI, PHQ-9, GAD-7 for co-occurring sleep and mood burden</li>
+                  <li><strong>Primary outcome (concept):</strong> change in TFI over 8 weeks</li>
+                </ul>
+                <p class="kit-note">Honest landscape: tinnitus has stronger established outcome tools; hyperacusis and misophonia measurement is more fragmented — which is why the CBT-sensitive tracker matters.</p>
               </div>
-              <p class="stepped-note">Escalation triggers: score deterioration beyond threshold, plateau after 6 weeks at Step 1, or any safety flag (suicidal ideation, severe functional impairment).</p>
+              <div class="case-block">
+                <h4>Weekly goal examples</h4>
+                <ul>
+                  <li>Walked outside 10 minutes × 3</li>
+                  <li>Used sound enrichment at bedtime</li>
+                  <li>Reduced checking / reassurance behavior</li>
+                  <li>Sat in a mildly noisy room without escaping</li>
+                  <li>Called a friend · completed one valued activity despite tinnitus</li>
+                </ul>
+              </div>
             </div>
+          </div>
+
+          <div class="dark-panel dark-panel-inset case-study-kit">
+            <h4 class="section-label-dark">Safety &amp; escalation design</h4>
+            <p class="kit-intro">Because Attune serves people in genuine distress, safety was a core design requirement — not a clinical afterthought. PHQ-9 item 9 and a C-SSRS-style screen are routing triggers, not passive data.</p>
+
+            <div class="diagnostic-table-wrap">
+              <div class="diagnostic-header">
+                <span>Screen result</span>
+                <span>Product response</span>
+                <span>Human pathway</span>
+              </div>
+              <div class="diagnostic-row">
+                <span class="diag-stage">Negative / low risk</span>
+                <span class="diag-signal">Continue standard self-guided pathway</span>
+                <span class="diag-response">Routine program cadence · biweekly measures</span>
+              </div>
+              <div class="diagnostic-row diagnostic-row-highlight">
+                <span class="diag-stage">Passive ideation · elevated distress</span>
+                <span class="diag-signal">Self-guided flow pauses</span>
+                <span class="diag-response">Same-day human support · crisis resources · further risk assessment</span>
+              </div>
+              <div class="diagnostic-row">
+                <span class="diag-stage">Active ideation · intent · plan · recent behavior · cannot stay safe</span>
+                <span class="diag-signal">Exit self-guided mode entirely</span>
+                <span class="diag-response">Immediate crisis support · emergency care · clinician review</span>
+              </div>
+            </div>
+
+            <blockquote class="trust-sample trust-sample-inline">
+              <p><strong>Design principle:</strong> The goal is not to keep every user inside the product. The goal is to route each person to the level of care that matches their risk. Attune supports CBT-based self-management — it is explicitly not a crisis service, and the safety pathway makes that boundary visible.</p>
+            </blockquote>
+          </div>
+
+          <div class="case-grid">
             <div class="case-block case-block-wide">
-              <h4>What I would test next</h4>
+              <h4>What I would measure</h4>
+              <p class="validate-intro">Metrics I would track in a pilot — labeled as concept hypotheses, not reported outcomes.</p>
+              <div class="metrics-table-wrap">
+                <table class="metrics-table">
+                  <thead>
+                    <tr>
+                      <th>Metric</th>
+                      <th>Why it matters</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>TFI change over 8 weeks</td>
+                      <td>Primary clinical outcome for tinnitus burden</td>
+                    </tr>
+                    <tr>
+                      <td>Program completion &amp; weekly retention</td>
+                      <td>Tests whether tiered design fights digital drop-off</td>
+                    </tr>
+                    <tr>
+                      <td>Weekly goal-completion trends</td>
+                      <td>Proximal signal of CBT behavior change — the “measuring is intervention” thesis</td>
+                    </tr>
+                    <tr>
+                      <td>Drop-off by week</td>
+                      <td>Identifies where structure fails vs. where content fails</td>
+                    </tr>
+                    <tr>
+                      <td>Movement across escalation tiers</td>
+                      <td>Self-guided → group → one-on-one · appropriate, not punitive</td>
+                    </tr>
+                    <tr>
+                      <td>Safety routing accuracy</td>
+                      <td>Positive screens trigger human pathway — no silent failures</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="case-block case-block-wide">
+              <h4>Reflection</h4>
+              <p>Attune taught me that designing for vulnerable users means holding engagement and responsibility at the same time — building enough structure to keep people in the work, and enough humility to route them out when the product is no longer the right container.</p>
+              <p>I would rather escalate someone to a human or crisis pathway than trap them in self-guided mode because the funnel looks better. What I'd build next: a coded app prototype of the 8-week flow, then a small group-cohort pilot to test whether the tiered model improves retention without diluting clinical fidelity.</p>
+            </div>
+
+            <div class="case-block case-block-wide portfolio-throughline">
+              <h4>Portfolio through-line</h4>
+              <p>Attune and my provider onboarding case study share one design question underneath: <strong>where does automation stop and a human step in?</strong> In onboarding, human review for credentialing-critical decisions. In Attune, human escalation for risk. That boundary — visible, intentional, trustworthy — is the point of view behind this portfolio.</p>
+            </div>
+
+            <div class="case-block case-block-wide">
+              <h4>Honest limitations</h4>
               <ul>
-                <li>Whether measurement cadence (2 vs. 3 weeks) affects engagement without causing survey fatigue</li>
-                <li>How patients interpret trend visualizations — do they increase confidence or anxiety?</li>
-                <li>Clinician response time and workflow integration for escalation alerts</li>
-                <li>Trust calibration: do patients understand what the tool does and doesn't do?</li>
+                <li>Concept program — not a reported clinical trial or commercial launch</li>
+                <li>Measurement and safety frameworks are design proposals pending validation with clinicians and IRB-reviewed protocols</li>
+                <li>Group cohort and one-on-one tiers are architectural intent, not yet piloted at scale</li>
               </ul>
             </div>
           </div>
