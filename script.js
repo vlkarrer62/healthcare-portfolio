@@ -194,6 +194,9 @@
     }
 
     applyHash(!isWorkInView());
+    if (!HASH_TAB[location.hash.slice(1)]) {
+      activateTab('attune', { updateHash: false });
+    }
     window.addEventListener('hashchange', function () {
       applyHash(!isWorkInView());
     });
