@@ -1069,6 +1069,135 @@ li:last-child {
   margin: 0;
 }
 
+.case-framing-light {
+  font-family: var(--font-ui);
+  font-size: var(--text-lead);
+  font-weight: 500;
+  line-height: var(--line-prose);
+  color: var(--color-text);
+  margin-bottom: var(--space-sm);
+}
+
+.case-scene-light {
+  margin-top: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-bg-alt);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  line-height: var(--line-prose);
+  color: var(--color-text-muted);
+}
+
+.verification-email-mock {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.email-mock-meta {
+  background: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border-light);
+  padding: var(--space-sm) var(--space-md);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.email-mock-meta p {
+  margin: 0.2rem 0;
+}
+
+.email-mock-label {
+  font-weight: 600;
+  color: var(--color-text);
+  min-width: 4.5rem;
+  display: inline-block;
+}
+
+.email-mock-body {
+  padding: var(--space-md);
+  font-family: var(--font-ui);
+  font-size: var(--text-sm);
+  line-height: var(--line-prose);
+  color: var(--color-text-muted);
+}
+
+.email-mock-body > p:first-child {
+  margin-top: 0;
+}
+
+.email-mock-fields {
+  margin: var(--space-sm) 0;
+  padding: 0;
+}
+
+.email-mock-field {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: var(--space-sm);
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--color-border-light);
+}
+
+.email-mock-field:last-of-type {
+  border-bottom: none;
+}
+
+.email-mock-field dt {
+  font-weight: 600;
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  margin: 0;
+}
+
+.email-mock-field dd {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.email-mock-field-critical {
+  background: rgba(74, 122, 106, 0.06);
+  margin: 0 calc(-1 * var(--space-md));
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+  border-left: 3px solid var(--color-accent);
+}
+
+.field-tag {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-left: 0.35rem;
+}
+
+.email-mock-confirm {
+  margin: var(--space-sm) 0 0;
+  padding: var(--space-sm);
+  background: var(--color-accent-light);
+  border-radius: var(--radius);
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.email-mock-note {
+  margin: 0;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-bg-alt);
+  border-top: 1px solid var(--color-border-light);
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  font-style: italic;
+  color: var(--color-text-light);
+  line-height: var(--line-prose);
+}
+
 /* About */
 
 .about-grid {
@@ -3464,6 +3593,11 @@ li:last-child {
 
   .case-grid {
     grid-template-columns: 1fr;
+  }
+
+  .email-mock-field {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
   }
 
   .before-after {
