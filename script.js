@@ -97,6 +97,7 @@
       onboarding: 'case-onboarding',
       attune: 'case-attune',
       workflow: 'case-workflow',
+      ambient: 'case-ambient',
       plants: 'case-plants'
     };
     const HASH_TAB = Object.fromEntries(
