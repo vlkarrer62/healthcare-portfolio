@@ -231,7 +231,7 @@
           <div class="case-tabs__bar" role="tablist" aria-label="Case studies">
             <button type="button" class="case-tab" role="tab" id="tab-onboarding" aria-selected="true" aria-controls="case-onboarding" data-tab="onboarding">Provider onboarding · flagship</button>
             <button type="button" class="case-tab" role="tab" id="tab-attune" aria-selected="false" aria-controls="case-attune" data-tab="attune" tabindex="-1">Attune · CBT program</button>
-            <button type="button" class="case-tab" role="tab" id="tab-workflow" aria-selected="false" aria-controls="case-workflow" data-tab="workflow" tabindex="-1">ENT workflow · case</button>
+            <button type="button" class="case-tab" role="tab" id="tab-workflow" aria-selected="false" aria-controls="case-workflow" data-tab="workflow" tabindex="-1">ENT handoff · safety</button>
             <button type="button" class="case-tab" role="tab" id="tab-plants" aria-selected="false" aria-controls="case-plants" data-tab="plants" tabindex="-1">Plant guide · code</button>
           </div>
 
@@ -699,6 +699,10 @@
                 <li><strong>Comparative test:</strong> Conversational intake vs. multi-page form on completion rate and time-to-submit</li>
               </ul>
             </div>
+            <div class="case-block case-block-wide portfolio-throughline">
+              <h4>Portfolio through-line</h4>
+              <p>Provider onboarding, Attune, and my ENT handoff case share one point of view: <strong>design verification and human-confirmation points into high-stakes workflows before something irreversible happens.</strong> Onboarding: human review before credentialing-critical decisions. Attune: human escalation on risk screens. Handoff: multi-party laterality verification before the OR.</p>
+            </div>
             <div class="case-block case-block-wide">
               <h4>Honest limitations of this case study</h4>
               <ul>
@@ -906,7 +910,7 @@
 
             <div class="case-block case-block-wide portfolio-throughline">
               <h4>Portfolio through-line</h4>
-              <p>Attune and my provider onboarding case study share one design question underneath: <strong>where does automation stop and a human step in?</strong> In onboarding, human review for credentialing-critical decisions. In Attune, human escalation for risk. That boundary — visible, intentional, trustworthy — is the point of view behind this portfolio.</p>
+              <p>Attune, provider onboarding, and my ENT handoff case share one point of view: <strong>design verification and human-confirmation points into high-stakes workflows before something irreversible happens.</strong> Onboarding: human review before credentialing-critical decisions. Attune: human escalation on risk screens. Handoff: multi-party laterality verification before the OR.</p>
             </div>
 
             <div class="case-block case-block-wide">
@@ -922,132 +926,206 @@
             </div>
 
 
-        <!-- Case Study 3: Clinical Workflow -->
+        <!-- Case Study: ENT Surgical Handoff -->
             <div class="case-tab-panel" role="tabpanel" id="case-workflow" aria-labelledby="tab-workflow" hidden>
         <article class="case-study" aria-labelledby="workflow-heading">
           <div class="case-header">
-            <p class="case-meta">Case Study 03 · Clinical Operations · Workflow Case Study</p>
-            <h3 id="workflow-heading">Reducing ambiguity in a high-risk ENT coordination workflow</h3>
-            <p class="case-summary">A workflow case study drawn from ENT/neurotology clinical operations experience — documenting where ambiguity created risk, and translating that observation into proposed templates, checklists, and clearer ownership. The product problem here is often not a screen alone, but structure around the handoff.</p>
+            <p class="case-meta">Clinical Operations · Process Improvement · Verification Design</p>
+            <h3 id="workflow-heading">ENT surgical handoff — verification by design</h3>
+            <p class="case-framing-light lead">A verification-by-design fix for surgical handoffs — turning a wrong-site near-miss into a multi-party laterality check that surfaces errors weeks before the OR, not on the day of surgery.</p>
+            <p class="case-summary">My role: identified the failure, proposed the intervention, and designed the verification workflow in a live clinical setting. This is a proposed process improvement — not a shipped product feature or formal quality study.</p>
           </div>
 
-          <div class="case-diagram" role="img" aria-label="Design intervention: ambiguity to required fields to ownership to safer handoff">
-            <p class="diagram-caption">From ambiguity to safer handoff</p>
+          <div class="case-diagram" role="img" aria-label="Shift-left verification: from day-of catch to multi-party confirm one month before surgery">
+            <p class="diagram-caption">From sequential trust to designed verification</p>
             <div class="diagram-pipeline intervention-flow">
               <div class="pipeline-node pipeline-node-problem">
-                <span class="node-tag">Problem</span>Ambiguity
+                <span class="node-tag">Before</span>Single entry error
               </div>
               <div class="pipeline-arrow" aria-hidden="true"></div>
-              <div class="pipeline-node">
-                <span class="node-tag">Structure</span>Required fields
+              <div class="pipeline-node pipeline-node-problem">
+                <span class="node-tag">Before</span>Sequential handoffs
               </div>
               <div class="pipeline-arrow" aria-hidden="true"></div>
-              <div class="pipeline-node">
-                <span class="node-tag">Clarity</span>Ownership
+              <div class="pipeline-node pipeline-node-problem">
+                <span class="node-tag">Before</span>Day-of catch
               </div>
               <div class="pipeline-arrow" aria-hidden="true"></div>
               <div class="pipeline-node pipeline-node-accent">
-                <span class="node-tag">Outcome</span>Safer handoff
+                <span class="node-tag">After</span>Multi-party verify · ~4 weeks out
               </div>
             </div>
           </div>
 
           <div class="case-grid">
-            <div class="case-block">
-              <h4>Problem</h4>
-              <p>ENT surgical coordination involves many handoffs across scheduling, pre-op, nursing, surgery, and post-op teams. Ambiguity around laterality, surgical approach, implant details, or ownership at each stage created risk for wrong-site events, delayed care, and repeated patient contacts.</p>
+            <div class="case-block case-block-wide">
+              <h4>The problem</h4>
+              <p>ENT surgical coordination spans many handoffs — scheduling, pre-op, nursing, surgery, post-op. Ambiguity about laterality, surgical approach, implant details, and ownership at each stage creates risk for wrong-site events, delays, and repeated patient contact.</p>
+              <p class="case-scene-light"><strong>Near-miss (anonymized):</strong> A patient was scheduled for a translabyrinthine resection of a vestibular schwannoma, and the wrong side was entered in the case request. It went uncaught through every downstream handoff until the surgeon caught it the day of surgery. A wrong-site surgery was one missed check away.</p>
+              <p><strong>Design reframe:</strong> The root issue is a systems and information-integrity problem — a single early error propagating unchecked because no stage was designed to independently verify it.</p>
             </div>
+
             <div class="case-block">
-              <h4>Users</h4>
+              <h4>Who's affected</h4>
               <ul>
-                <li>Clinical coordinators managing complex surgical pathways</li>
-                <li>OR schedulers and pre-op nurses</li>
-                <li>Surgeons and advanced practice providers</li>
-                <li>Patients navigating multi-step surgical preparation</li>
+                <li><strong>Patient</strong> — catastrophic, irreversible harm if wrong-site proceeds.</li>
+                <li><strong>Surgeon(s)</strong> — liability, trust, and day-of disruption when errors surface late.</li>
+                <li><strong>Nursing &amp; OR teams</strong> — rework, delays, and last-minute schedule changes.</li>
+                <li><strong>Coordinator</strong> — ownership of the pathway without a designed safety net.</li>
+              </ul>
+              <p>The process gave many people the information — but no one a defined checkpoint to verify it.</p>
+            </div>
+
+            <div class="case-block">
+              <h4>Why the old flow failed</h4>
+              <p>Information was <em>passed</em> but never <em>confirmed</em>. Handoffs were sequential and single-threaded — each stage trusted the prior one, so a first-stage error had no independent catch.</p>
+              <ul>
+                <li>Single point of entry for laterality — no redundancy</li>
+                <li>No early cross-role verification moment</li>
+                <li>Ambiguous ownership at transitions</li>
+                <li>Critical fields scattered across verbal updates and free-text notes</li>
               </ul>
             </div>
+
             <div class="case-block case-block-wide">
-              <h4>Workflow map</h4>
-              <div class="workflow-map" role="img" aria-label="Workflow: Referral → Clinical evaluation → Surgical planning → Pre-op clearance → Scheduling → Surgery → Post-op follow-up">
-                <div class="workflow-step">Referral</div>
-                <div class="workflow-connector"></div>
-                <div class="workflow-step">Clinical evaluation</div>
-                <div class="workflow-connector"></div>
-                <div class="workflow-step">Surgical planning</div>
-                <div class="workflow-connector"></div>
-                <div class="workflow-step">Pre-op clearance</div>
-                <div class="workflow-connector"></div>
-                <div class="workflow-step">Scheduling</div>
-                <div class="workflow-connector"></div>
-                <div class="workflow-step">Surgery</div>
-                <div class="workflow-connector"></div>
-                <div class="workflow-step">Post-op follow-up</div>
+              <h4>The design</h4>
+              <p>A verification email, sent by the coordinator roughly one month before the procedure, to every surgeon on the case, their nurses, and the OR team — surfacing laterality, surgical site, approach, implant details, and patient identity for explicit confirmation.</p>
+              <ul class="goal-list">
+                <li><strong>Redundancy:</strong> several roles verify the same critical fields — one person's error can be caught by another.</li>
+                <li><strong>Shift-left timing:</strong> catching errors ~4 weeks out turns a day-of crisis into a routine correction.</li>
+                <li><strong>Shared source of truth:</strong> one artifact everyone confirms against, replacing sequential trust.</li>
+                <li><strong>Explicit ownership:</strong> the coordinator owns the send; recipients own the confirm.</li>
+              </ul>
+            </div>
+
+            <div class="case-block case-block-wide">
+              <h4>Annotated verification email</h4>
+              <p class="validate-intro">Concept mock of the artifact — structured fields replace free-text handoffs.</p>
+              <div class="verification-email-mock">
+                <div class="email-mock-meta">
+                  <p><span class="email-mock-label">To:</span> Attending surgeon · Fellow · OR nurse · Pre-op coordinator</p>
+                  <p><span class="email-mock-label">When:</span> ~4 weeks before procedure · Reply required within 48 hours</p>
+                  <p><span class="email-mock-label">Subject:</span> Confirm surgical details — [Patient initials] · [Date of surgery]</p>
+                </div>
+                <div class="email-mock-body">
+                  <p>Please confirm the following for the scheduled procedure. <strong>Reply to all with corrections if anything is inaccurate.</strong></p>
+                  <dl class="email-mock-fields">
+                    <div class="email-mock-field email-mock-field-critical">
+                      <dt>Laterality <span class="field-tag">Critical</span></dt>
+                      <dd>Left · Translabyrinthine approach · Vestibular schwannoma</dd>
+                    </div>
+                    <div class="email-mock-field email-mock-field-critical">
+                      <dt>Patient identity <span class="field-tag">Critical</span></dt>
+                      <dd>[Initials] · DOB · MRN</dd>
+                    </div>
+                    <div class="email-mock-field">
+                      <dt>Surgical approach &amp; site</dt>
+                      <dd>Translabyrinthine resection · Temporal bone</dd>
+                    </div>
+                    <div class="email-mock-field">
+                      <dt>Implant / device details</dt>
+                      <dd>None · N/A for this case</dd>
+                    </div>
+                    <div class="email-mock-field">
+                      <dt>Scheduled date &amp; location</dt>
+                      <dd>[Date] · Main OR · Room assignment TBD</dd>
+                    </div>
+                  </dl>
+                  <p class="email-mock-confirm">☐ I confirm these details are correct &nbsp;·&nbsp; ☐ I see an error — details below:</p>
+                </div>
+                <p class="email-mock-note">Design intent: critical fields visually distinct · confirmation is the explicit action · reply-all creates a shared audit trail</p>
               </div>
-              <p class="workflow-note">Each transition is a handoff point where information can be lost, duplicated, or misinterpreted.</p>
             </div>
-            <div class="case-block">
-              <h4>Risk points</h4>
-              <ul>
-                <li>Unclear laterality (left vs. right) in referral and scheduling</li>
-                <li>Surgical approach not communicated to pre-op team</li>
-                <li>No single owner at handoff transitions</li>
-                <li>Implant/device details scattered across systems</li>
-                <li>Patient contacted multiple times for the same information</li>
-              </ul>
-            </div>
-            <div class="case-block">
-              <h4>Communication template &amp; checklist</h4>
-              <p>In clinical coordination, I saw handoffs fail when laterality, ownership, and next steps stayed implicit. This case study proposes a structured handoff template requiring:</p>
-              <ul>
-                <li>Confirmed laterality with source verification</li>
-                <li>Surgical approach and planned procedure</li>
-                <li>Named owner for next step</li>
-                <li>Device/implant specifications if applicable</li>
-                <li>Outstanding items with due dates</li>
-                <li>Patient contact status</li>
-              </ul>
-            </div>
+
             <div class="case-block case-block-wide">
-              <h4>Before / After</h4>
-              <div class="before-after">
-                <div class="ba-column">
+              <h4>Key design decisions</h4>
+              <ul class="decision-list">
+                <li><strong>Email vs. system-integrated check.</strong> Tradeoff: an EHR or scheduling hard-stop would be more robust but slower to implement. Resolution: email is fast, low-friction, and works in today's workflow — with a clear path to productize as a structured confirmation step later.</li>
+                <li><strong>Who to include.</strong> Tradeoff: alert fatigue vs. real redundancy. Resolution: every surgeon on the case, their nurses, and OR team — broad enough to catch errors, tight enough to stay surgical-case-specific.</li>
+                <li><strong>Timing.</strong> Tradeoff: too early (details still changing) vs. too late (day-of crisis). Resolution: ~4 weeks out — details are largely final, with time to correct calmly.</li>
+              </ul>
+            </div>
+
+            <div class="case-block case-block-wide">
+              <h4>Before / after</h4>
+              <div class="product-before-after">
+                <div class="pba-col pba-before">
                   <h5>Before</h5>
                   <ul>
-                    <li>Free-text handoff notes with inconsistent fields</li>
-                    <li>Laterality confirmed verbally, not documented</li>
-                    <li>Multiple staff contacting patient for same data</li>
-                    <li>Pre-op team discovered missing details day before surgery</li>
-                    <li>No standard escalation when information was incomplete</li>
+                    <li>Laterality entered once — error propagated unchecked</li>
+                    <li>Each handoff trusted the prior stage</li>
+                    <li>Surgeon caught wrong side on day of surgery</li>
+                    <li>No shared artifact to confirm against</li>
+                    <li>Near-miss invisible until the OR</li>
                   </ul>
                 </div>
-                <div class="ba-column">
+                <div class="pba-col pba-after">
                   <h5>After</h5>
                   <ul>
-                    <li>Structured template with required fields at each handoff</li>
-                    <li>Laterality verified and documented at two points</li>
-                    <li>Single coordinator owns patient communication</li>
-                    <li>Pre-op checklist complete 72 hours before surgery</li>
-                    <li>Clear escalation path when fields are incomplete</li>
+                    <li>Multi-party verification ~4 weeks before procedure</li>
+                    <li>Same critical fields confirmed by several roles</li>
+                    <li>Errors corrected in routine workflow, not under OR pressure</li>
+                    <li>Coordinator-owned send · recipient-owned confirm</li>
+                    <li>Reply-all creates shared documentation</li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="case-block">
-              <h4>Why this structure matters</h4>
-              <ul>
-                <li>Fewer pre-op day-of surprises requiring last-minute calls</li>
-                <li>Lower cognitive load for coordinators — checklist replaces memory</li>
-                <li>Clearer ownership reduces “I thought someone else was handling that”</li>
-                <li>Fewer repetitive intake questions for patients</li>
-              </ul>
+
+            <div class="case-block case-block-wide">
+              <h4>What I would measure</h4>
+              <p class="validate-intro">Metrics for a pilot of this process — proposed, not reported outcomes. Baseline: the day-of catch that prompted this intervention.</p>
+              <div class="metrics-table-wrap">
+                <table class="metrics-table">
+                  <thead>
+                    <tr>
+                      <th>Metric</th>
+                      <th>Why it matters</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Laterality / wrong-site errors caught pre-op</td>
+                      <td>Primary safety outcome — errors surfaced before the OR</td>
+                    </tr>
+                    <tr>
+                      <td>Time-to-catch (days before surgery)</td>
+                      <td>Tests whether verification shifts left from day-of to weeks-out</td>
+                    </tr>
+                    <tr>
+                      <td>Day-of cancellations or delays from detail conflicts</td>
+                      <td>Should decrease as conflicts resolve earlier</td>
+                    </tr>
+                    <tr>
+                      <td>Independent confirmations per case</td>
+                      <td>Redundancy working — more than one role confirming</td>
+                    </tr>
+                    <tr>
+                      <td>Near-miss reports</td>
+                      <td>Visibility into caught errors that would have propagated</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <div class="case-block">
-              <h4>What I would test next</h4>
+
+            <div class="case-block case-block-wide">
+              <h4>Reflection</h4>
+              <p>High-stakes workflows need designed verification, not assumed diligence. The cheapest place to catch an error is the earliest — and good safety design makes the right check the easy, default action.</p>
+              <p>If productized, I would build this as a scheduling-system confirmation step with required fields, structured read-backs, and a hard-stop when critical details conflict — but the email proved the verification pattern could work in a live setting without waiting for a system build.</p>
+            </div>
+
+            <div class="case-block case-block-wide portfolio-throughline">
+              <h4>Portfolio through-line</h4>
+              <p>Onboarding, Attune, and this handoff share one point of view: <strong>design verification and human-confirmation points into high-stakes workflows before something irreversible happens.</strong> Onboarding: human review before credentialing-critical decisions. Attune: human escalation on risk screens. Handoff: multi-party laterality verification before the OR.</p>
+            </div>
+
+            <div class="case-block case-block-wide">
+              <h4>Honest limitations</h4>
               <ul>
-                <li>Template completion rates and which fields are most often skipped</li>
-                <li>Time-to-complete handoff before vs. after structured template</li>
-                <li>Near-miss and wrong-site event tracking over 6 months</li>
-                <li>Staff satisfaction and perceived cognitive load</li>
+                <li>Proposed and designed process improvement — not a formal QI study or EHR product launch</li>
+                <li>Impact metrics above are what I would track in a pilot; reported outcomes depend on institutional measurement</li>
+                <li>Email-based verification is a pragmatic interim — a built-in hard-stop would be the next design iteration</li>
               </ul>
             </div>
           </div>
