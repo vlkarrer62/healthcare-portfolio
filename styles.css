@@ -197,7 +197,7 @@ li:last-child {
 
 .eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -207,7 +207,7 @@ li:last-child {
 
 .subheading {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -385,7 +385,7 @@ li:last-child {
   align-items: center;
   gap: 0.5rem;
   font-family: var(--font-mono);
-  font-size: 0.64rem;
+  font-size: 0.75rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--seafoam);
@@ -477,7 +477,7 @@ li:last-child {
 .btn {
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -604,7 +604,7 @@ li:last-child {
 
 .work-flagship-label {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1175,7 +1175,7 @@ li:last-child {
 }
 
 .field-tag {
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -1228,7 +1228,7 @@ li:last-child {
 
 .workflow-fit-table .fit-tag {
   display: inline-block;
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -1304,7 +1304,7 @@ li:last-child {
 
 .trust-note {
   display: inline-block;
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.02em;
   padding: 0.2rem 0.5rem;
@@ -1391,7 +1391,7 @@ li:last-child {
 .illustrative-label {
   margin: 0 0 var(--space-sm);
   font-family: var(--font-mono);
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -1480,7 +1480,7 @@ li:last-child {
 .where-label {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1627,14 +1627,14 @@ li:last-child {
 .card-meta-tint {
   color: var(--seafoam) !important;
   font-family: var(--font-mono);
-  font-size: 0.58rem !important;
+  font-size: 0.75rem !important;
   letter-spacing: 0.14em;
 }
 
 .diagram-caption-tint {
   color: var(--panel-text-dim) !important;
   font-family: var(--font-mono);
-  font-size: 0.58rem !important;
+  font-size: 0.75rem !important;
   letter-spacing: 0.14em;
 }
 
@@ -1653,7 +1653,7 @@ li:last-child {
 
 .flagship-label {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -1745,7 +1745,7 @@ li:last-child {
 
 .section-label-tint {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -1763,7 +1763,7 @@ li:last-child {
 
 .boundary-heading {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--panel-text-dim);
@@ -1840,7 +1840,7 @@ li:last-child {
 .pattern-list strong::before {
   content: counter(patterns, decimal-leading-zero) " · ";
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   letter-spacing: 0.06em;
   color: var(--color-accent);
 }
@@ -1883,7 +1883,7 @@ li:last-child {
 /* Conversion funnel */
 .funnel-note {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--color-text-light);
@@ -2018,7 +2018,7 @@ li:last-child {
 
 .journey-phase {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -2049,7 +2049,7 @@ li:last-child {
 
 .journey-touch {
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   letter-spacing: 0.04em;
   color: var(--silver);
   margin-top: auto;
@@ -2094,7 +2094,7 @@ li:last-child {
 .diagnostic-header {
   background: rgba(255, 255, 255, 0.6);
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -2156,7 +2156,7 @@ li:last-child {
 
 .pba-col h5 {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -2202,7 +2202,7 @@ li:last-child {
 .trust-context {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--seafoam);
@@ -2242,7 +2242,7 @@ li:last-child {
 .human-owned-label {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -2277,7 +2277,7 @@ li:last-child {
 .proto-progress-label {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--panel-text-dim);
@@ -2303,7 +2303,7 @@ li:last-child {
 .proto-trust,
 .proto-action {
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--seafoam);
@@ -2317,7 +2317,7 @@ li:last-child {
 
 .proto-source {
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   letter-spacing: 0.06em;
   color: var(--panel-text-dim);
   margin-bottom: var(--space-sm);
@@ -2328,7 +2328,7 @@ li:last-child {
   flex-wrap: wrap;
   gap: 0.75rem;
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--panel-text-dim);
@@ -2376,14 +2376,14 @@ li:last-child {
 
 .ops-id {
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   color: var(--panel-text-dim);
   letter-spacing: 0.04em;
 }
 
 .ops-status {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-strong);
@@ -2401,7 +2401,7 @@ li:last-child {
 
 .ops-assignee {
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   color: var(--panel-text-dim);
 }
 
@@ -2435,7 +2435,7 @@ li:last-child {
 
 .metrics-table th {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -2476,7 +2476,7 @@ li:last-child {
 
 .proto-label {
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--seafoam);
@@ -2530,7 +2530,7 @@ li:last-child {
   color: var(--mist);
   align-self: flex-end;
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
 }
 
 /* Field review rows */
@@ -2557,7 +2557,7 @@ li:last-child {
 
 .proto-field-name {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--panel-text-dim);
@@ -2565,13 +2565,13 @@ li:last-child {
 
 .proto-field-value {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   color: var(--panel-text);
 }
 
 .proto-status {
   font-family: var(--font-mono);
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   padding: 0.2rem 0.45rem;
@@ -2659,7 +2659,7 @@ li:last-child {
 .proto-blocker-label {
   display: block;
   font-family: var(--font-mono);
-  font-size: 0.52rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--seafoam);
@@ -2764,7 +2764,7 @@ li:last-child {
 
 .more-work-heading {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -2834,7 +2834,7 @@ li:last-child {
 
 .diagram-caption {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -2882,7 +2882,7 @@ li:last-child {
 }
 
 .node-num {
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: var(--color-accent);
   letter-spacing: 0.04em;
@@ -2890,7 +2890,7 @@ li:last-child {
 
 .node-tag {
   display: block;
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -3027,22 +3027,27 @@ li:last-child {
 
 /* AI Workflow Pipeline */
 
+/* Vertical timeline: number column + text, one step per row */
 .ai-workflow-pipeline {
   display: flex;
-  align-items: stretch;
-  gap: 0;
-  overflow-x: auto;
-  padding-bottom: var(--space-xs);
+  flex-direction: column;
+  max-width: 48rem;
 }
 
 .workflow-step-card {
-  flex: 1;
-  min-width: 10rem;
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  column-gap: var(--space-sm);
+  align-items: baseline;
   background: var(--color-bg-card);
   border: 1px solid var(--color-border-light);
   border-radius: var(--radius-lg);
   padding: var(--space-md);
 }
+
+.workflow-step-card .workflow-step-num { grid-row: 1 / span 2; margin-bottom: 0; }
+.workflow-step-card h3,
+.workflow-step-card p { grid-column: 2; }
 
 .workflow-step-card-accent {
   border-color: var(--color-accent);
@@ -3059,7 +3064,7 @@ li:last-child {
 
 .workflow-step-card h3 {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -3067,22 +3072,10 @@ li:last-child {
 }
 
 .workflow-connector-h {
-  align-self: center;
-  width: 1.5rem;
-  height: 2px;
+  width: 2px;
+  height: 1.25rem;
+  margin-left: calc(var(--space-md) + 0.6rem);
   background: var(--color-border);
-  flex-shrink: 0;
-  position: relative;
-}
-
-.workflow-connector-h::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  border: 5px solid transparent;
-  border-left-color: var(--color-border);
 }
 
 /* Work Cards */
@@ -3111,7 +3104,7 @@ li:last-child {
 
 .card-meta {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -3193,7 +3186,7 @@ li:last-child {
 
 .case-meta {
   font-family: var(--font-mono);
-  font-size: 0.58rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -3670,7 +3663,7 @@ li:last-child {
   .diag-stage::before {
     content: "Stage · ";
     font-family: var(--font-mono);
-    font-size: 0.52rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
     color: var(--panel-text-dim);
   }
@@ -3678,7 +3671,7 @@ li:last-child {
   .diag-signal::before {
     content: "Signal · ";
     font-family: var(--font-mono);
-    font-size: 0.52rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
     color: var(--panel-text-dim);
   }
@@ -3686,7 +3679,7 @@ li:last-child {
   .diag-response::before {
     content: "Response · ";
     font-family: var(--font-mono);
-    font-size: 0.52rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
     color: var(--panel-text-dim);
   }
@@ -3750,26 +3743,6 @@ li:last-child {
   .intervention-flow .pipeline-arrow,
   .content-pipeline .pipeline-arrow {
     display: none;
-  }
-
-  .ai-workflow-pipeline {
-    flex-direction: column;
-  }
-
-  .workflow-connector-h {
-    width: 2px;
-    height: 1rem;
-    margin: 0 auto;
-  }
-
-  .workflow-connector-h::after {
-    right: auto;
-    left: 50%;
-    top: 100%;
-    transform: translateX(-50%);
-    border: 5px solid transparent;
-    border-top-color: var(--color-border);
-    border-left-color: transparent;
   }
 
   .care-loop {
@@ -3925,7 +3898,7 @@ li:last-child {
 
 .exp-dates {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--color-text-light);
@@ -3990,7 +3963,7 @@ li:last-child {
 
 /* Featured projects and updated reading hierarchy */
 body{font-family:var(--font-ui);line-height:1.7}h1,h2,h3,h4,.lead,.work-flagship-title{font-family:var(--font-serif)}.hero-lead{max-width:49rem}.section-desc{max-width:52rem}
-.featured-projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.1rem;margin:2rem 0 1.1rem}.featured-project{display:flex;flex-direction:column;background:#fff;border:1px solid var(--color-border);border-radius:10px;overflow:hidden;text-decoration:none;color:var(--color-text);transition:box-shadow .2s,transform .2s}.featured-project:hover,.featured-project:focus-visible{box-shadow:var(--shadow-md);transform:translateY(-3px)}.featured-art{height:145px;position:relative;overflow:hidden}.art-kodama{background:radial-gradient(circle at 78% 20%,#e6f0ea,#a9c9b6 72%)}.art-handoff{background:linear-gradient(135deg,#dbe7e8,#a7c3c6)}.art-onboard{background:linear-gradient(130deg,#d6e7dd,#9abfb0)}.art-label{position:absolute;bottom:13px;left:15px;color:#1f3a31;font:500 .65rem var(--font-mono);letter-spacing:.1em}.art-onboard .art-label{color:#284c40}.art-orbit{position:absolute;border:1px solid #3f6f5e;border-radius:50%;width:94px;height:94px;right:20%;top:15px;box-shadow:0 0 0 20px #ffffff55,0 0 0 42px #ffffff30}.art-symbol,.art-steps{position:absolute;top:35px;left:25%;font-size:2.6rem;letter-spacing:16px;color:#2f5a4b}.art-steps{color:#437262}.featured-copy{display:flex;flex:1;flex-direction:column;gap:.45rem;padding:1.2rem}.featured-kicker{color:var(--color-accent);font:500 .67rem var(--font-mono);text-transform:uppercase;letter-spacing:.06em}.featured-copy h3{margin:0;font-size:1.6rem;line-height:1.15}.featured-copy p{font:400 .95rem/1.65 var(--font-ui);margin:0;color:var(--color-text-muted);flex:1}.featured-more{color:var(--color-accent);font:500 .87rem var(--font-ui);margin-top:.5rem}.featured-secondary{font:400 .9rem var(--font-ui);margin-bottom:2rem;color:var(--color-text-muted)}.demo-disclaimer{border-left:3px solid var(--color-accent);background:var(--color-accent-light);padding:.85rem 1rem;font:400 .95rem/1.6 var(--font-ui)}@media(max-width:760px){.featured-projects{grid-template-columns:1fr}.featured-project{flex-direction:row}.featured-art{height:auto;min-height:160px;flex:0 0 30%}}@media(max-width:480px){.featured-project{flex-direction:column}.featured-art{height:110px;min-height:110px}.featured-copy{padding:1rem}}@media(prefers-reduced-motion:reduce){.featured-project{transition:none}.featured-project:hover{transform:none}}
+.featured-projects{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.1rem;margin:2rem 0 1.1rem}.featured-project{display:flex;flex-direction:column;background:#fff;border:1px solid var(--color-border);border-radius:10px;overflow:hidden;text-decoration:none;color:var(--color-text);transition:box-shadow .2s,transform .2s}.featured-project:hover,.featured-project:focus-visible{box-shadow:var(--shadow-md);transform:translateY(-3px)}.featured-art{height:145px;position:relative;overflow:hidden}.art-kodama{background:radial-gradient(circle at 78% 20%,#e6f0ea,#a9c9b6 72%)}.art-handoff{background:linear-gradient(135deg,#dbe7e8,#a7c3c6)}.art-onboard{background:linear-gradient(130deg,#d6e7dd,#9abfb0)}.art-label{position:absolute;bottom:13px;left:15px;color:#1f3a31;font:500 0.75rem var(--font-mono);letter-spacing:.1em}.art-onboard .art-label{color:#284c40}.art-orbit{position:absolute;border:1px solid #3f6f5e;border-radius:50%;width:94px;height:94px;right:20%;top:15px;box-shadow:0 0 0 20px #ffffff55,0 0 0 42px #ffffff30}.art-symbol,.art-steps{position:absolute;top:35px;left:25%;font-size:2.6rem;letter-spacing:16px;color:#2f5a4b}.art-steps{color:#437262}.featured-copy{display:flex;flex:1;flex-direction:column;gap:.45rem;padding:1.2rem}.featured-kicker{color:var(--color-accent);font:500 0.75rem var(--font-mono);text-transform:uppercase;letter-spacing:.06em}.featured-copy h3{margin:0;font-size:1.6rem;line-height:1.15}.featured-copy p{font:400 .95rem/1.65 var(--font-ui);margin:0;color:var(--color-text-muted);flex:1}.featured-more{color:var(--color-accent);font:500 .87rem var(--font-ui);margin-top:.5rem}.featured-secondary{font:400 .9rem var(--font-ui);margin-bottom:2rem;color:var(--color-text-muted)}.demo-disclaimer{border-left:3px solid var(--color-accent);background:var(--color-accent-light);padding:.85rem 1rem;font:400 .95rem/1.6 var(--font-ui)}@media(max-width:760px){.featured-projects{grid-template-columns:1fr}.featured-project{flex-direction:row}.featured-art{height:auto;min-height:160px;flex:0 0 30%}}@media(max-width:480px){.featured-project{flex-direction:column}.featured-art{height:110px;min-height:110px}.featured-copy{padding:1rem}}@media(prefers-reduced-motion:reduce){.featured-project{transition:none}.featured-project:hover{transform:none}}
 
 /* Short case-study overviews with native, keyboard-accessible disclosures. */
 .case-details {
