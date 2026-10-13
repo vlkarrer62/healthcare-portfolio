@@ -3972,3 +3972,12 @@ li:last-child {
     font-size: 1.35rem;
   }
 }
+
+.hero-dark .hero-lead:has(+ .hero-lead-secondary) {
+  margin-bottom: var(--space-sm);
+}
+
+.hero-dark .hero-lead-secondary {
+  margin-top: 0;
+  opacity: 0.85;
+}
