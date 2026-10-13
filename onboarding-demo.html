@@ -31,14 +31,14 @@
         <p class="demo-lead">A calm, step-by-step onboarding experience for behavioral health providers — clear progress, plain language, and confirm-before-submit at every stage.</p>
       </div>
 
-      <div class="demo-shell" id="demo-app">
+      <p class="demo-disclaimer"><strong>Concept demonstration only.</strong> All information is fictional. No real provider information is collected, verified, or submitted.</p><div class="demo-shell" id="demo-app">
         <div class="demo-shell-header">
           <div class="demo-shell-title-row">
             <div>
               <p class="demo-shell-label">Provider onboarding</p>
               <p class="demo-shell-step" id="step-label">Step 1 of 5 · Welcome</p>
             </div>
-            <span class="demo-secure-badge">Secure intake</span>
+            <span class="demo-secure-badge">Simulated intake</span>
           </div>
           <div class="demo-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="20" id="progress-bar">
             <span class="demo-progress-fill" id="progress-fill"></span>
@@ -72,7 +72,7 @@
           label: 'Step 1 of 5 · Welcome',
           progress: 20,
           messages: [
-            { role: 'assistant', text: 'Welcome — I’ll walk you through credentialing intake one step at a time. Most providers finish in about 15–20 minutes if their CAQH profile is up to date.' },
+            { role: 'assistant', text: 'Welcome — I’ll walk you through credentialing intake one step at a time. This simulated flow uses sample data and takes only a few clicks.' },
             { role: 'assistant', text: 'You’ll review everything before anything is submitted. A credentialing specialist on our team verifies licenses, NPI, and payer-ready details.' }
           ],
           actions: [{ label: 'Start intake', primary: true, next: 1 }]
@@ -81,7 +81,7 @@
           label: 'Step 2 of 5 · NPI',
           progress: 40,
           messages: [
-            { role: 'assistant', text: 'I found an NPI linked to your email. Is <strong>1234567890</strong> correct?' }
+            { role: 'assistant', text: 'This is a fictional NPI for the demo: <strong>1234567890</strong>. Continue?' }
           ],
           actions: [
             { label: 'Yes, that’s correct', primary: true, next: 2 },
@@ -115,15 +115,15 @@
             { role: 'assistant', text: 'After you confirm, your file moves to ops review. You’ll see status updates — not silent processing.' }
           ],
           actions: [
-            { label: 'Confirm & submit to review', primary: true, next: 5 },
+            { label: 'Simulate confirmation', primary: true, next: 5 },
             { label: 'Edit a field', next: 2 }
           ]
         },
         {
-          label: 'Submitted · Under review',
+          label: 'Demo complete · Nothing submitted',
           progress: 100,
           messages: [
-            { role: 'assistant', text: 'Submitted for credentialing review. Current status: <strong>Under ops review</strong>.' },
+            { role: 'assistant', text: 'Demo completed. In a real system, an authorized specialist would review the submission.' },
             { role: 'assistant', text: 'Next: payer enrollment is separate from credentialing submission — you’ll see blockers if anything is missing for first appointment readiness.' }
           ],
           actions: [{ label: 'Restart demo', primary: true, next: 0 }]
