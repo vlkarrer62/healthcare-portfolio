@@ -6,9 +6,9 @@
   'use strict';
 
   const siteHeader = document.querySelector('.site-header');
-  const hero = document.querySelector('.hero-dark');
+  const hero = document.querySelector('.hero-tint');
 
-  // Header theme: dark glass over hero, light after scroll
+  // Header theme: sage glass over hero, light after scroll
   if (siteHeader && hero) {
     const toggleHeaderTheme = function () {
       const heroBottom = hero.getBoundingClientRect().bottom;
